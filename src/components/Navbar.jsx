@@ -7,7 +7,7 @@ export default function Navbar() {
         {ME.name.split(' ')[0]}<span>.</span>
       </a>
       <ul className="nav-links">
-        {['Skills', 'Projects', 'Education', 'Contact'].map((s) => (
+        {['Skills', 'Experience', 'Projects', 'Education', 'Contact'].map((s) => (
           <li key={s}>
             <a href={`#${s.toLowerCase()}`}>{s}</a>
           </li>

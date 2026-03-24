@@ -7,6 +7,7 @@ import Projects  from './components/Projects';
 import Education from './components/Education';
 import Contact   from './components/Contact';
 import Footer    from './components/Footer';
+import Experience from './components/Experience';
 
 export default function App() {
   const [scrollPct, setScrollPct] = useState(0);
@@ -52,6 +53,7 @@ export default function App() {
 
       <Navbar />
       <Hero />
+      <Experience/>
       <Skills />
       <Projects />
       <Education />

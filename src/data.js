@@ -12,10 +12,30 @@ export const ME = {
   resumeLink: '#',
 };
 
+ 
+export const EXPERIENCE = [
+  {
+    title:    'Web Developer Intern',
+    company:  'Aayojon',       
+    location: 'Bhubaneswar, India',        
+    duration: 'Jan 2025 – May 2025',
+    type:     'Internship',
+    bullets: [
+      'Collaborated in a 4-person agile team to integrate dynamic UI components with backend APIs, ensuring real-time data synchronization for service packages and user inquiries.',
+      'Designed and implemented the core Appointment Booking System, enabling seamless scheduling and automated lead capture for event consultations.',
+      'Seamlessly integrated dynamic UI elements with server-side logic for real-time service updates.',
+      'Enhanced site speed and mobile responsiveness, improving overall user retention.',
+      'Contributed to the full SDLC, from requirement gathering to deployment, for an event management platform.',
+    ],
+    tags: ['Angular 18', 'Node.js', 'REST APIs', 'Agile', 'Firebase' , 'GCP'],
+  },
+];
+
 export const SKILLS = {
-  Frontend:  ['React.js', 'TypeScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Next.js'],
-  Backend:   ['Node.js', 'Express.js', 'REST APIs', 'MySQL', 'PostgreSQL'],
+  Frontend:  ['React.js', 'Angular 18', 'TypeScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Next.js'],
+  Backend:   ['Node.js', 'Express.js', 'Flask', 'REST APIs', 'MySQL', 'PostgreSQL'],
   Languages: ['JavaScript', 'Python', 'SQL'],
+  Data:      ['Pandas', 'NumPy'],
   Tools:     ['Git', 'GitHub', 'Docker', 'Figma', 'Postman'],
 };
 

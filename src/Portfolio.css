@@ -766,3 +766,139 @@ a {
   .nav-links         { display: none; }
   .footer            { flex-direction: column; gap: .5rem; text-align: center; }
 }
+
+/* ─────────────────────────────────────────
+   EXPERIENCE
+───────────────────────────────────────── */
+.exp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.exp-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  display: flex;
+  overflow: hidden;
+  transition: transform .3s, box-shadow .3s;
+}
+.exp-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--sh-md);
+}
+
+.exp-stripe {
+  width: 4px;
+  flex-shrink: 0;
+  background: linear-gradient(to bottom, var(--accent), var(--accent2));
+}
+
+.exp-body {
+  padding: 1.85rem 2rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.exp-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.exp-role {
+  font-family: 'Fraunces', serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -.02em;
+  color: var(--text);
+  margin-bottom: .2rem;
+}
+
+.exp-company {
+  font-size: .85rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.exp-location {
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.exp-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: .35rem;
+  flex-shrink: 0;
+}
+
+.exp-duration {
+  font-size: .78rem;
+  font-weight: 600;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.exp-type {
+  font-size: .65rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  background: var(--accent-light);
+  color: var(--accent);
+  padding: .2rem .65rem;
+  border-radius: 999px;
+}
+
+.exp-bullets {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+  padding: 0;
+}
+
+.exp-bullets li {
+  font-size: .84rem;
+  color: var(--muted);
+  line-height: 1.75;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.exp-bullets li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-size: .8rem;
+}
+
+.exp-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+}
+
+.exp-tag {
+  font-size: .68rem;
+  font-weight: 500;
+  padding: .22rem .65rem;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--muted);
+}
+
+@media (max-width: 600px) {
+  .exp-top    { flex-direction: column; }
+  .exp-meta   { align-items: flex-start; }
+  .exp-body   { padding: 1.25rem; }
+}
