@@ -33,10 +33,10 @@ export const EXPERIENCE = [
 
 export const SKILLS = {
   Frontend:  ['React.js', 'Angular 18', 'TypeScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Next.js'],
-  Backend:   ['Node.js', 'Express.js', 'Flask', 'REST APIs', 'MySQL', 'PostgreSQL'],
+  Backend:   ['Node.js', 'Express.js', 'Django', 'Flask', 'REST APIs', 'MySQL', 'PostgreSQL'],
   Languages: ['JavaScript', 'Python', 'SQL'],
   Data:      ['Pandas', 'NumPy'],
-  Tools:     ['Git', 'GitHub', 'Docker', 'Figma', 'Postman'],
+  Tools:     ['Git', 'GitHub', 'Docker', 'Postman'],
 };
 
 export const PROJECTS = [
