@@ -9,7 +9,7 @@ export const ME = {
   github:     'https://github.com/kritik50',
   linkedin:   'https://www.linkedin.com/in/kritik-palai/',
   location:   'Bengaluru, India',
-  resumeLink: 'https://drive.google.com/file/d/1LCdTUXl2vEq_pYqr_6a4o65BmzlzK1WR/view?usp=drivesdk',
+  resumeLink: 'https://drive.google.com/file/d/1uiDGjlta2l9fbV6cmNASqgWUbH5GUT8w/view?usp=drive_link',
 };
 
  
