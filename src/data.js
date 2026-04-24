@@ -65,10 +65,10 @@ export const PROJECTS = [
   },
   {
     num:    '04',
-    title:  'Weather-App',
-    desc:   'Minimalist weather app with 7-day forecasts, geolocation support, and animated weather icons. 5000+ daily active users.',
-    tags:   ['React', 'OpenWeather API', 'Geolocation'],
-    github: 'https://github.com/kritik50/weather-app',
+    title:  'Split-App',
+    desc:   'Split-App is a full-stack group expense sharing app that lets users create groups, split bills, track balances, and settle dues.',
+    tags:   ['React + Vite', 'FastApi', 'SQLAlchemy + SQLite'],
+    github: 'https://github.com/kritik50/Split-App',
     
   },
 ];
