@@ -24,10 +24,14 @@ export default function Projects() {
             <div className="proj-top">
               <span className="proj-num">{p.num}</span>
               <div className="proj-actions">
-                <a href={p.github} className="proj-icon-btn" title="GitHub"
-                   target="_blank" rel="noreferrer">⌥</a>
-                <a href={p.live} className="proj-icon-btn" title="Live Demo"
-                   target="_blank" rel="noreferrer">↗</a>
+                {p.github && (
+                  <a href={p.github} className="proj-icon-btn" title="GitHub"
+                     target="_blank" rel="noreferrer">⌥</a>
+                )}
+                {p.live && (
+                  <a href={p.live} className="proj-icon-btn" title="Live Demo"
+                     target="_blank" rel="noreferrer">↗</a>
+                )}
               </div>
             </div>
 

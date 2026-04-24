@@ -26,11 +26,13 @@ export default function Education() {
                 <p className="edu-deg">{e.degree}</p>
                 <p className="edu-school">{e.school}</p>
                 <p className="edu-loc">📍 {e.location}</p>
-                <div className="edu-chips">
-                  {e.highlights.map((h) => (
-                    <span className="edu-chip" key={h}>{h}</span>
-                  ))}
-                </div>
+                {e.highlights && e.highlights.length > 0 && (
+                  <div className="edu-chips">
+                    {e.highlights.map((h) => (
+                      <span className="edu-chip" key={h}>{h}</span>
+                    ))}
+                  </div>
+                )}
               </div>
 
               <div className="edu-r">

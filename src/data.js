@@ -91,7 +91,7 @@ export const EDUCATION = [
     grade:      '68.4%',
     highlights: ['Physics', 'Chemistry', 'Mathematics', 'Computer Science'],
   },
-    {
+  {
     degree:     'Class X — CBSE',
     school:     'Santanu Public School',
     location:   'Bhubaneswar, India',
