@@ -69,6 +69,7 @@ export const PROJECTS = [
     desc:   'Split-App is a full-stack group expense sharing app that lets users create groups, split bills, track balances, and settle dues.',
     tags:   ['React + Vite', 'FastApi', 'SQLAlchemy + SQLite'],
     github: 'https://github.com/kritik50/Split-App',
+    live:   'https://split-app-tawny-seven.vercel.app/',
     
   },
 ];
